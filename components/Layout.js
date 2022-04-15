@@ -31,7 +31,7 @@ const Layout = ({ children, title }) => {
                     rel="noopener noreferrer"
                 >
                     <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                        Copyright &copy; Bikash Jena
+                        Copyright &copy; 2021 Bikash Jena
                     </button>
                 </a>
             </footer>
