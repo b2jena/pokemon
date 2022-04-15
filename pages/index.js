@@ -23,10 +23,9 @@ export default function Home({ initialPokemon }) {
       </div>
 
       <div className="mt-10 flex justify-center gap-5">
-        <button disabled={!pokemon.previous} className="disabled:bg-gray-500 px-3 py-1 bg-slate-900" onClick={() => fetchPokemon(pokemon.previous, false)}>previous</button>
+        <button disabled={!pokemon.previous} className="disabled:bg-gray-500 px-3 py-1 bg-slate-900" onClick={() => fetchPokemon(pokemon.previous, false)}>prev</button>
         <button disabled={!pokemon.next} className="disabled:bg-gray-500 px-3 py-1 bg-slate-900" onClick={() => fetchPokemon(pokemon.next, true)}>next</button>
       </div>
-
     </Layout>
   )
 }
